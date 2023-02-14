@@ -5,6 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P01_register;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 public class D01_registerStepDef {
@@ -63,7 +64,10 @@ public class D01_registerStepDef {
     public void accountIsCreatedSuccessfully() {
 
         SoftAssert soft = new SoftAssert();
-        soft.assertTrue(registration.successMsg.getText().contains("registration completed"));
+        soft.assertTrue(registration.successMsg.getText().toLowerCase().contains("your registration completed"));
+
+        String textColor = registration.successMsg.getCssValue("color");
+        soft.assertEquals(Color.fromString(textColor).asHex(),"#4cb17c");
 
 
 

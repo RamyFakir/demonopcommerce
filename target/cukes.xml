@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="38.264" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="F01_Registration |New User can create an account" name="Creating an account using valid data" time="38.136">
+<system-out><![CDATA[
+Given User go to register page..............................................passed
+When User select male gender................................................passed
+And User enter "Ramy" & "Fakir".............................................passed
+And User enter date of birth................................................passed
+And User enter email "ramy.fakir@test1.com".................................passed
+And User enter password "p@ssw0rd"..........................................passed
+And User click on register button...........................................passed
+Then account is created successfully........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
