@@ -7,7 +7,7 @@ Feature: F01_Registration |New User can create an account
     When User select male gender
     And User enter "Ramy" & "Fakir"
     And User enter date of birth
-    And User enter email "ramy.fakir@test1.com"
+    And User enter email
     And User enter password "p@ssw0rd"
     And User click on register button
     Then account is created successfully

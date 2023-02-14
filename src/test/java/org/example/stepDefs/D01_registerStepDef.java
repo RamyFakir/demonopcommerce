@@ -1,5 +1,6 @@
 package org.example.stepDefs;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -41,8 +42,10 @@ public class D01_registerStepDef {
         selectYear.selectByVisibleText("1986");
     }
 
-    @And("User enter email {string}")
-    public void userEnter(String email) {
+    @And("User enter email")
+    public void userEnter() {
+        Faker fake = new Faker();
+        String email = fake.internet().safeEmailAddress();
         registration.email.sendKeys(email);
     }
 
