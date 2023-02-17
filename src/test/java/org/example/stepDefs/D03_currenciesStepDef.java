@@ -22,7 +22,7 @@ public class D03_currenciesStepDef {
 
     @Then("currency changes to Euro")
     public void currencyChangesToEuro()
-    {   List<WebElement> list =Hooks.driver.findElements(By.cssSelector("span[class=\"price actual-price\"]"));
+    {   List<WebElement> list =Hooks.driver.findElements(By.cssSelector(currency.currencySelect));
         for(int i=0;i<4;i++){
             String element = list.get(i).getText();
             Assert.assertTrue(element.contains("€"));
@@ -31,4 +31,6 @@ public class D03_currenciesStepDef {
 
 
     }
+
+
 }

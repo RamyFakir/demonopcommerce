@@ -1,1 +1,1 @@
-file:src/main/resources/Features/F02_Login.feature:5:16
+file:src/main/resources/Features/F07_followUs.feature:12
