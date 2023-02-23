@@ -34,6 +34,13 @@ public class P03_homePage {
 
     @FindBy(css = "span[class=\"value\"]")
     public WebElement sku;
+    // Sliders
+
+    @FindBy(css = "a[href=\"https://demo.nopcommerce.com/\"]")
+    public WebElement slider1;
+
+    @FindBy(css = "a[href=\"https://demo.nopcommerce.com/\"]")
+    public WebElement slider2;
 
     // Follow us
 
@@ -48,6 +55,23 @@ public class P03_homePage {
 
     @FindBy(css = "a[href=\"http://www.youtube.com/user/nopCommerce\"]")
     public WebElement youtube;
+
+    // Wishlist
+    @FindBy(css = "div[data-productid=\"18\"] button[class=\"button-2 add-to-wishlist-button\"]")
+    public WebElement heart;
+
+    @FindBy(className = "content")
+    public WebElement message;
+
+    @FindBy(css = "div[id=\"bar-notification\"] div[class=\"bar-notification success\"]")
+    public WebElement bar;
+
+    @FindBy(className = "wishlist-label")
+    public WebElement wishl;
+
+    @FindBy(css = "input[class=\"qty-input\"]")
+    public WebElement qty;
+
 
 }
 
