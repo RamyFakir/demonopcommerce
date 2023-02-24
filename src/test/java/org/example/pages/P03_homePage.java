@@ -42,6 +42,9 @@ public class P03_homePage {
     @FindBy(css = "a[href=\"https://demo.nopcommerce.com/\"]")
     public WebElement slider2;
 
+    // hover over
+
+
     // Follow us
 
     @FindBy(css = "a[href=\"http://www.facebook.com/nopCommerce\"]")

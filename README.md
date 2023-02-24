@@ -3,5 +3,8 @@
 ## Test scenarios: 
 ### Registration
 ### Login
+### Currencies
 ### Search
-### follow us links
+### Hover Categories
+### Follow us links
+### Wishlist
