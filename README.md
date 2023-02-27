@@ -1,4 +1,5 @@
-# Front end testing project for https://demo.nopcommerce.com/
+# Front end test automation
+https://demo.nopcommerce.com/
 
 ## Test scenarios: 
 - &nbsp; Registration
