@@ -1,10 +1,11 @@
 # Front end testing project for https://demo.nopcommerce.com/
 
 ## Test scenarios: 
-### Registration
-### Login
-### Currencies
-### Search
-### Hover Categories
-### Follow us links
-### Wishlist
+- &nbsp; Registration
+- &nbsp; Login
+- &nbsp; Currencies
+- &nbsp; Search
+- &nbsp; Hover Categories
+- &nbsp; Follow us links
+- &nbsp; Wishlist
+
